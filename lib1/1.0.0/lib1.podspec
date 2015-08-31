@@ -13,7 +13,7 @@ s.source                = {
 :git => "git@github.com:shaofengmosc/assets.git",
 :tag => s.version.to_s # tag == version is ideal. May not work for mirrored repos.
 }
-s.resource_bundle       = {"MyDict" => "*.{txt}"}
+s.resource_bundles       = {"MyDict" => ["*.{txt}"]}
 
 
 # --- Other Configs ------------------------------------------------------------ #
