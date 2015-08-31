@@ -13,9 +13,8 @@ s.source                = {
 :git => "git@github.com:shaofengmosc/assets.git",
 :tag => s.version.to_s # tag == version is ideal. May not work for mirrored repos.
 }
-s.source_files          = "*.c"
-s.resource_bundle       = "*.txt"
-s.public_header_files   = "Example/**/*.h"
+s.source_files          = "logic.c"
+s.resource_bundle       = "HAHA.txt"
 
 
 # --- Other Configs ------------------------------------------------------------ #
